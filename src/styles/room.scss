@@ -9,10 +9,20 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-        }
 
-        > img {
-            max-height: 45px;
+            > img {
+                max-height: 45px;
+            }
+
+            > div {
+                display: flex;
+                justify-content: space-between;
+
+                button {
+                    height: 40px;
+                    margin-left: 16px;
+                }
+            }
         }
     }
 
@@ -94,6 +104,10 @@
                     font-weight: 500;
                 }
             }
+        }
+
+        .question-list {
+            margin-top: 32px;
         }
     }
 }
