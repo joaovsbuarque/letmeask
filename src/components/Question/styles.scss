@@ -1,5 +1,5 @@
 .question {
-    background: #fefefe;
+    background: #0b0b1e;
     border-radius: 8px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
 
@@ -8,7 +8,7 @@
     }
 
     p {
-        color: #29292e;
+        color: #fff;
     }
 
     footer {
@@ -43,7 +43,7 @@
             &.like-button {
                 display: flex;
                 align-items: flex-end;
-                color: #737380;
+                color: #b944c4;
 
                 svg {
                     margin-left: 8px;
